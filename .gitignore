@@ -1,10 +1,4 @@
-# Generated data (regenerate with the generator)
-data/csv/
-data/json/
-data/generation_manifest.json
-data/validation_report.json
-data/reproducibility_report.json
-data/schema.sql
+
 
 # Python
 .venv/
