@@ -1,0 +1,66 @@
+[
+  {
+    "carrier_id":"CAR-0001",
+    "name":"Swift Logistics",
+    "scac":"BBCN",
+    "contact_email":"ops@swiftlogisti.com",
+    "is_preferred":false,
+    "is_active":true
+  },
+  {
+    "carrier_id":"CAR-0002",
+    "name":"JB Hunt",
+    "scac":"BFZM",
+    "contact_email":"ops@jbhunt.com",
+    "is_preferred":false,
+    "is_active":true
+  },
+  {
+    "carrier_id":"CAR-0003",
+    "name":"Schneider National",
+    "scac":"NTJU",
+    "contact_email":"ops@schneidernat.com",
+    "is_preferred":false,
+    "is_active":true
+  },
+  {
+    "carrier_id":"CAR-0004",
+    "name":"Werner Enterprises",
+    "scac":"ZAMG",
+    "contact_email":"ops@wernerenterp.com",
+    "is_preferred":false,
+    "is_active":true
+  },
+  {
+    "carrier_id":"CAR-0005",
+    "name":"Knight-Swift",
+    "scac":"SHNT",
+    "contact_email":"ops@knight-swift.com",
+    "is_preferred":true,
+    "is_active":true
+  },
+  {
+    "carrier_id":"CAR-0006",
+    "name":"Old Dominion",
+    "scac":"TWMV",
+    "contact_email":"ops@olddominion.com",
+    "is_preferred":false,
+    "is_active":true
+  },
+  {
+    "carrier_id":"CAR-0007",
+    "name":"XPO Logistics",
+    "scac":"XPBB",
+    "contact_email":"ops@xpologistics.com",
+    "is_preferred":false,
+    "is_active":true
+  },
+  {
+    "carrier_id":"CAR-0008",
+    "name":"Ryder",
+    "scac":"ANLL",
+    "contact_email":"ops@ryder.com",
+    "is_preferred":false,
+    "is_active":true
+  }
+]

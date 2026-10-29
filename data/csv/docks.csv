@@ -1,0 +1,13 @@
+dock_id,facility_id,dock_number,dock_type,max_vehicle_length_m,has_leveler,has_reefer_hookup,has_hazmat_cert,daily_capacity,is_active
+DOCK-FAC-001-001,FAC-001,1,STANDARD,16.1,True,True,False,8,True
+DOCK-FAC-001-002,FAC-001,2,REFRIGERATED,16.9,True,True,False,6,True
+DOCK-FAC-001-003,FAC-001,3,HAZMAT,17.0,False,False,True,4,True
+DOCK-FAC-001-004,FAC-001,4,OVERSIZE,13.9,True,False,False,3,True
+DOCK-FAC-002-001,FAC-002,1,STANDARD,13.2,True,False,False,8,True
+DOCK-FAC-002-002,FAC-002,2,REFRIGERATED,12.0,False,True,False,6,True
+DOCK-FAC-002-003,FAC-002,3,HAZMAT,14.1,False,True,True,4,True
+DOCK-FAC-002-004,FAC-002,4,OVERSIZE,12.9,True,True,False,3,True
+DOCK-FAC-003-001,FAC-003,1,STANDARD,15.1,True,False,False,8,True
+DOCK-FAC-003-002,FAC-003,2,REFRIGERATED,15.7,True,True,False,6,True
+DOCK-FAC-003-003,FAC-003,3,HAZMAT,14.7,True,False,True,4,True
+DOCK-FAC-003-004,FAC-003,4,REFRIGERATED,17.1,True,True,False,6,True

@@ -1,0 +1,44 @@
+[
+  {
+    "facility_id":"FAC-001",
+    "name":"Dallas Distribution Center #1",
+    "facility_type":"DISTRIBUTION_CENTER",
+    "city":"Dallas",
+    "state":"TX",
+    "country":"USA",
+    "timezone":"America\/Chicago",
+    "open_time":"06:00",
+    "close_time":"21:00",
+    "is_active":true,
+    "effective_from":"2026-01-01",
+    "effective_to":null
+  },
+  {
+    "facility_id":"FAC-002",
+    "name":"Atlanta Cross Dock #2",
+    "facility_type":"CROSS_DOCK",
+    "city":"Atlanta",
+    "state":"GA",
+    "country":"USA",
+    "timezone":"America\/New_York",
+    "open_time":"07:00",
+    "close_time":"22:00",
+    "is_active":true,
+    "effective_from":"2026-01-01",
+    "effective_to":null
+  },
+  {
+    "facility_id":"FAC-003",
+    "name":"Chicago Cold Storage #3",
+    "facility_type":"COLD_STORAGE",
+    "city":"Chicago",
+    "state":"IL",
+    "country":"USA",
+    "timezone":"America\/Chicago",
+    "open_time":"05:00",
+    "close_time":"20:00",
+    "is_active":true,
+    "effective_from":"2026-01-01",
+    "effective_to":null
+  }
+]

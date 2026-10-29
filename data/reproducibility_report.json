@@ -1,0 +1,33 @@
+{
+  "mode": "starter",
+  "seed": 20261022,
+  "reproducible": true,
+  "pass1_counts": {
+    "facilities": 3,
+    "docks": 12,
+    "yard_slots": 24,
+    "carriers": 8,
+    "vehicles": 24,
+    "labor_shifts": 360,
+    "appointments": 400,
+    "shipments": 400,
+    "handling_requirements": 400,
+    "check_in_events": 1453,
+    "exceptions": 32,
+    "ground_truth": 32
+  },
+  "pass2_counts": {
+    "facilities": 3,
+    "docks": 12,
+    "yard_slots": 24,
+    "carriers": 8,
+    "vehicles": 24,
+    "labor_shifts": 360,
+    "appointments": 400,
+    "shipments": 400,
+    "handling_requirements": 400,
+    "check_in_events": 1453,
+    "exceptions": 32,
+    "ground_truth": 32
+  }
+}

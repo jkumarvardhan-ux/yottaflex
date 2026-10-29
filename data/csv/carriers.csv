@@ -1,0 +1,9 @@
+carrier_id,name,scac,contact_email,is_preferred,is_active
+CAR-0001,Swift Logistics,BBCN,ops@swiftlogisti.com,False,True
+CAR-0002,JB Hunt,BFZM,ops@jbhunt.com,False,True
+CAR-0003,Schneider National,NTJU,ops@schneidernat.com,False,True
+CAR-0004,Werner Enterprises,ZAMG,ops@wernerenterp.com,False,True
+CAR-0005,Knight-Swift,SHNT,ops@knight-swift.com,True,True
+CAR-0006,Old Dominion,TWMV,ops@olddominion.com,False,True
+CAR-0007,XPO Logistics,XPBB,ops@xpologistics.com,False,True
+CAR-0008,Ryder,ANLL,ops@ryder.com,False,True

@@ -1,0 +1,188 @@
+{
+  "validated_at": "2026-10-29T09:15:08.598305Z",
+  "checks": [
+    {
+      "name": "PK unique \u2013 facilities.facility_id",
+      "passed": true,
+      "detail": "3/3",
+      "level": "error"
+    },
+    {
+      "name": "PK unique \u2013 docks.dock_id",
+      "passed": true,
+      "detail": "12/12",
+      "level": "error"
+    },
+    {
+      "name": "PK unique \u2013 yard_slots.yard_slot_id",
+      "passed": true,
+      "detail": "24/24",
+      "level": "error"
+    },
+    {
+      "name": "PK unique \u2013 carriers.carrier_id",
+      "passed": true,
+      "detail": "8/8",
+      "level": "error"
+    },
+    {
+      "name": "PK unique \u2013 vehicles.vehicle_id",
+      "passed": true,
+      "detail": "24/24",
+      "level": "error"
+    },
+    {
+      "name": "PK unique \u2013 labor_shifts.labor_shift_id",
+      "passed": true,
+      "detail": "360/360",
+      "level": "error"
+    },
+    {
+      "name": "PK unique \u2013 appointments.appointment_id",
+      "passed": true,
+      "detail": "400/400",
+      "level": "error"
+    },
+    {
+      "name": "PK unique \u2013 shipments.shipment_id",
+      "passed": true,
+      "detail": "400/400",
+      "level": "error"
+    },
+    {
+      "name": "PK unique \u2013 handling_requirements.handling_req_id",
+      "passed": true,
+      "detail": "400/400",
+      "level": "error"
+    },
+    {
+      "name": "PK unique \u2013 check_in_events.event_id",
+      "passed": true,
+      "detail": "1453/1453",
+      "level": "error"
+    },
+    {
+      "name": "PK unique \u2013 exceptions.exception_id",
+      "passed": true,
+      "detail": "32/32",
+      "level": "error"
+    },
+    {
+      "name": "PK unique \u2013 ground_truth.gt_id",
+      "passed": true,
+      "detail": "32/32",
+      "level": "error"
+    },
+    {
+      "name": "FK docks.facility_id",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "FK yard_slots.dock_id",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "FK vehicles.carrier_id",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "FK appointments.facility_id",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "FK appointments.dock_id",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "FK appointments.carrier_id",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "FK appointments.vehicle_id",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "FK shipments.appointment_id",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "FK handling.shipment_id",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "FK events.appointment_id",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "Enum appointment.status",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "Enum event.event_type",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "Enum exception.issue_type",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "Confirmed dates present for CONFIRMED+",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "Capacity overflows are labelled (ground truth exists)",
+      "passed": true,
+      "detail": "overflow_days=0, labelled=7",
+      "level": "error"
+    },
+    {
+      "name": "Ground truth non-empty",
+      "passed": true,
+      "detail": "n=32",
+      "level": "error"
+    },
+    {
+      "name": "Every exception has a ground-truth row",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "Event sequence unique & ordered per appointment",
+      "passed": true,
+      "detail": "bad=0",
+      "level": "error"
+    }
+  ],
+  "passed": 30,
+  "failed": 0,
+  "warnings": 0
+}

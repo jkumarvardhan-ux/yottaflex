@@ -1,0 +1,50 @@
+{
+  "generator": "yottaflex-dock-scheduler",
+  "version": "1.0.0",
+  "mode": "starter",
+  "seed": 20261022,
+  "generated_at": "2026-10-29T10:16:56.546066Z",
+  "horizon": {
+    "start": "2026-09-01",
+    "days": 60
+  },
+  "volumes_requested": {
+    "n_facilities": 3,
+    "n_docks_per_facility": 4,
+    "n_carriers": 8,
+    "n_vehicles_per_carrier": 3,
+    "n_appointments": 400,
+    "n_labor_shifts_per_facility_day": 2,
+    "edge_case_fraction": 0.08
+  },
+  "row_counts": {
+    "facilities": 3,
+    "docks": 12,
+    "yard_slots": 24,
+    "carriers": 8,
+    "vehicles": 24,
+    "labor_shifts": 360,
+    "appointments": 400,
+    "shipments": 400,
+    "handling_requirements": 400,
+    "check_in_events": 1453,
+    "exceptions": 32,
+    "ground_truth": 32
+  },
+  "checksums_sha256": {
+    "facilities": "9a39329f5ed6e6d86cda08cabbc505f58c16c65f924eb72180b5f956cd9b8f8c",
+    "docks": "b0de99171a75aff5f7cb449355a9f1a3ebc5cbeec123f0861a0ea4a1580e36bc",
+    "yard_slots": "007badd7994a28dd4ce6f0187c8574403b60e038118d10cc5fe2248f25afbbd1",
+    "carriers": "fc4d498dc30c0749202c48509ec107756c167094c45dfb7468855f3d830b37f2",
+    "vehicles": "ee9b51f06ee483cbdadd2f3038c4fa58a3b7e054bed83e8d08fc8601dd083290",
+    "labor_shifts": "da79dc653569f262faad5616f0b7fad2b8532da28e729920598b163d3018c2c4",
+    "appointments": "0a05004ab6263c1f0bb933de2c895f4ea04a8c0ecec73da4a8b58f2beb3c7252",
+    "shipments": "37714c24f277e2e576bbafff0c47d666a090917cbb47783dca00f9a856711916",
+    "handling_requirements": "b68a4eba0edc778da2f34beca8a683dce4ae5ef44e2977d0b291d6a643e5b9b0",
+    "check_in_events": "aed9d9874727317872e0e8208dd560e0d4143308d6169d6e9149f7e83f933b79",
+    "exceptions": "e6f8575244918fa9820aefd6f7d3f09449741fe96754bafa284b2c9acea8f8cd",
+    "ground_truth": "30bd7801eea3cd78940eff3c1daa6bcb46ebfa5b725f94e01f0b9f0ead0e06ff"
+  },
+  "command": "python -m src.generate --mode starter --seed 20261022",
+  "notes": "All data is synthetic. No external PII used."
+}

@@ -1,0 +1,4 @@
+facility_id,name,facility_type,city,state,country,timezone,open_time,close_time,is_active,effective_from,effective_to
+FAC-001,Dallas Distribution Center #1,DISTRIBUTION_CENTER,Dallas,TX,USA,America/Chicago,06:00,21:00,True,2026-01-01,
+FAC-002,Atlanta Cross Dock #2,CROSS_DOCK,Atlanta,GA,USA,America/New_York,07:00,22:00,True,2026-01-01,
+FAC-003,Chicago Cold Storage #3,COLD_STORAGE,Chicago,IL,USA,America/Chicago,05:00,20:00,True,2026-01-01,
